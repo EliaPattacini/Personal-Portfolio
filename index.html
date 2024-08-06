@@ -16,7 +16,7 @@
             <ul id="sidemenu">
             <li><a href="#header"> Home </a></li>
             <li><a href="#about">About </a></li>
-            <li><a href="#services">Services </a></li>
+            <li><a href="#services">Projects </a></li>
             <li><a href="#portfolio">Portfolio </a></li>
             <li><a href="#contact"> Contact </a></li>
             <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
@@ -39,18 +39,23 @@
                 </div>
                 <div class="about-col-2">
                     <h1 class="subtitle"> About Me </h1>
-                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin aliquam neque non eros ultrices tincidunt. Aenean posuere convallis tellus vitae fermentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consectetur neque elit, eget tincidunt augue vehicula eget. Praesent quam neque, ultrices rutrum porttitor ut, vestibulum sed erat. Etiam molestie lorem eget nisl mattis luctus.   </p>
+                    <p> Detail-oriented and proactive Biomedical Engineer with a Master's specialization in
+                        informatics, data analysis, and deep learning for biomedical applications. Experienced in
+                        developing advanced algorithms for ECG data analysis. Strong analytical skills and a solid
+                        foundation in transformer architectures and time-series data analysis
+                          </p>
                     <div class="tab-titles">
                     <p class="tab-links active-link" onclick="opentab('skills')"> Skills </p>
                     <p class="tab-links" onclick="opentab('experience')"> Experience </p>
                     <p class="tab-links" onclick="opentab('education')"> Education </p>
-                    
+                    <p class="tab-links" onclick="opentab('languages')"> Languages </p>
                     </div>
                     <div class="tab-contents active-tab" id="skills">
                     <ul>
-                        <li><span>AI</span><br> Machine Learning</li>
+                        <li><span>AI</span><br> Machine and deep learning algorithms</li>
                         <li><span>Data analysis</span><br> Analysis of different kind of data</li>
                         <li><span>Computer vision</span><br> Classification/Object detection </li>
+                        <li><span>NLP</span><br> Sentiment Analysis and chatbot </li>
                         </ul>
                     </div>
                     <div class="tab-contents" id="experience">
@@ -65,74 +70,68 @@
                         <li><span>2017-2021</span><br>Bsc in Biomedical Engineering at Politecnico of Milan, Italy</li>
                         </ul>
                     </div>
+                    <div class="tab-contents" id="languages">
+                    <ul>
+                        <li><span>Italian</span><br>Native</li>
+                        <li><span>English</span><br>C1 level</li>
+                        </ul>
+                    </div>
+                </div>
                 </div>
             </div>
-            
-            
-            
+       
             </div>
-        
-        
-        </div>
 <!-----Services------>
         <div id="services">
             <div class="container">
-                <h1 class="subtitle"> My Services </h1>
+                <h1 class="subtitle"> My Skills </h1>
                 <div class="services-list">
                 <div> 
                     <i class="fa-solid fa-code"></i>
-                    <h2> AI </h2>
-                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin aliquam neque non eros ultrices tincidunt. Aenean posuere convallis tellus vitae fermentum. Lorem ipsum dolor sit amet, consectetur adipisci</p>
-                    <a href = "#"> Learn more</a>
+                    <h2> AI and Data analysis </h2>
+                    <p> Creation and train of the latest machine leatning and deep learning alghoritms, data visualization and analysis.</p>
                     </div>
                     <div> 
                         <i class="fa-solid fa-crop"></i>
-                        <h2> Data analysis</h2>
-                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin aliquam neque non eros ultrices tincidunt. Aenean posuere convallis tellus vitae fermentum. Lorem ipsum dolor sit amet, consectetur adipisci</p>
-                        <a href = "#"> Learn more</a>
+                        <h2> Computer vision</h2>
+                        <p> Use of CNNs and OpenCV tools for image classification and object detection tasks.</p>
                     </div>
                     <div>
                         <i class="fa-brands fa-app-store"></i>
-                        <h2>Computer vision</h2>
-                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin aliquam neque non eros ultrices tincidunt. Aenean posuere convallis tellus vitae fermentum. Lorem ipsum dolor sit amet, consectetur adipisci</p>
-                        <a href = "#"> Learn more</a>
+                        <h2>NTL</h2>
+                        <p> Use of custum or pre-trained models for Natural Language Model tasks like Sentiment Analysis or ChatBot.</p>
                     </div>
-                    
-                    
                 </div>
             </div>
         </div>
 <!-----Portfolio------>        
         <div id="portfolio">
             <div class="container">
-            <h1 class="subtitle"> My work </h1>
+            <h1 class="subtitle"> My projects </h1>
                 <div class="work-list">
                      <div class="work">
                         <img src="images/ecg.jpg">
                          <div class="layer">
                          <h3> ECG beat classification </h3>
-                             <p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin aliquam neque non eros ultrices tincidunt. Aenean posuere convallis tellus vitae fermentum. Lorem ipsum dolor sit amet, consectetur adipisci</p>
-                             <a href="#"> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                             <p>  Use of a transformer architecture with a convolutional attention mechanism on a ECG time series for the classification of an ECG beat in three different classes (N,S,V). </p>
+                             <a href="ecg_project.html"> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                          </div>
                     </div>
                      <div class="work">
                         <img src="images/plant.jpg">
                          <div class="layer">
                          <h3> Plant leaf classification</h3>
-                             <p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin aliquam neque non eros ultrices tincidunt. Aenean posuere convallis tellus vitae fermentum. Lorem ipsum dolor sit amet, consectetur adipisci</p>
-                             <a href="#"> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                             <p>  Use of custom CNNs model and transfer learning for the classification of a plant leaf in 12 different classes</p>
                          </div>
                     </div>
                      <div class="work">
                         <img src="images/chatbot.png">
                          <div class="layer">
                          <h3> AI chatbot</h3>
-                             <p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin aliquam neque non eros ultrices tincidunt. Aenean posuere convallis tellus vitae fermentum. Lorem ipsum dolor sit amet, consectetur adipisci</p>
-                             <a href="#"> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                             <p>  Use of openAI api for chatbot creation and huggingface transformers for sentiment analysis </p>
                          </div>
                     </div>
                 </div>
-                <a href="#" class="btn"> See more </a>
             </div>
         </div>
 <!-----Contact------>               
